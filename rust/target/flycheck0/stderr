@@ -1,10 +1,12 @@
-   0.100581274s  INFO cargo::core::compiler::fingerprint: fingerprint dirty for rust v0.1.0 (/home/penjy/Documents/PROJECTS/rust/sms/rust)/Check { test: false }/TargetInner { ..: lib_target("rust", ["lib"], "/home/penjy/Documents/PROJECTS/rust/sms/rust/src/lib.rs", Edition2021) }
-   0.130736760s  INFO cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
-   0.131130865s  INFO cargo::core::compiler::fingerprint: fingerprint dirty for rust v0.1.0 (/home/penjy/Documents/PROJECTS/rust/sms/rust)/Check { test: true }/TargetInner { ..: lib_target("rust", ["lib"], "/home/penjy/Documents/PROJECTS/rust/sms/rust/src/lib.rs", Edition2021) }
-   0.131155539s  INFO cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
-   0.131396883s  INFO cargo::core::compiler::fingerprint: fingerprint dirty for rust v0.1.0 (/home/penjy/Documents/PROJECTS/rust/sms/rust)/Check { test: false }/TargetInner { name: "rust", doc: true, ..: with_path("/home/penjy/Documents/PROJECTS/rust/sms/rust/src/main.rs", Edition2021) }
-   0.131413337s  INFO cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
-   0.131638742s  INFO cargo::core::compiler::fingerprint: fingerprint dirty for rust v0.1.0 (/home/penjy/Documents/PROJECTS/rust/sms/rust)/Check { test: true }/TargetInner { name: "rust", doc: true, ..: with_path("/home/penjy/Documents/PROJECTS/rust/sms/rust/src/main.rs", Edition2021) }
-   0.131673125s  INFO cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(Stale)
-    Checking rust v0.1.0 (/home/penjy/Documents/PROJECTS/rust/sms/rust)
-    Finished dev [unoptimized + debuginfo] target(s) in 0.22s
+   0.036740440s  INFO cargo::core::compiler::fingerprint: stale: changed "/home/penjy/Documents/PROJECTS/rust/sms/rust/src/lib.rs"
+   0.036759949s  INFO cargo::core::compiler::fingerprint:           (vs) "/home/penjy/Documents/PROJECTS/rust/sms/rust/target/debug/.fingerprint/sms_rust-1ac6714a1a5c14b6/dep-lib-sms_rust"
+   0.036766828s  INFO cargo::core::compiler::fingerprint:                FileTime { seconds: 1769779939, nanos: 845950817 } < FileTime { seconds: 1769780055, nanos: 824390636 }
+   0.036843604s  INFO cargo::core::compiler::fingerprint: fingerprint dirty for sms_rust v0.1.0 (/home/penjy/Documents/PROJECTS/rust/sms/rust)/Check { test: false }/TargetInner { ..: lib_target("sms_rust", ["cdylib"], "/home/penjy/Documents/PROJECTS/rust/sms/rust/src/lib.rs", Edition2021) }
+   0.036861056s  INFO cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/penjy/Documents/PROJECTS/rust/sms/rust/target/debug/.fingerprint/sms_rust-1ac6714a1a5c14b6/dep-lib-sms_rust", reference_mtime: FileTime { seconds: 1769779939, nanos: 845950817 }, stale: "/home/penjy/Documents/PROJECTS/rust/sms/rust/src/lib.rs", stale_mtime: FileTime { seconds: 1769780055, nanos: 824390636 } }))
+   0.037833639s  INFO cargo::core::compiler::fingerprint: stale: changed "/home/penjy/Documents/PROJECTS/rust/sms/rust/src/lib.rs"
+   0.037842908s  INFO cargo::core::compiler::fingerprint:           (vs) "/home/penjy/Documents/PROJECTS/rust/sms/rust/target/debug/.fingerprint/sms_rust-83cec5551c5e551c/dep-test-lib-sms_rust"
+   0.037848978s  INFO cargo::core::compiler::fingerprint:                FileTime { seconds: 1769779939, nanos: 849951068 } < FileTime { seconds: 1769780055, nanos: 824390636 }
+   0.037890602s  INFO cargo::core::compiler::fingerprint: fingerprint dirty for sms_rust v0.1.0 (/home/penjy/Documents/PROJECTS/rust/sms/rust)/Check { test: true }/TargetInner { ..: lib_target("sms_rust", ["cdylib"], "/home/penjy/Documents/PROJECTS/rust/sms/rust/src/lib.rs", Edition2021) }
+   0.037905136s  INFO cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleItem(ChangedFile { reference: "/home/penjy/Documents/PROJECTS/rust/sms/rust/target/debug/.fingerprint/sms_rust-83cec5551c5e551c/dep-test-lib-sms_rust", reference_mtime: FileTime { seconds: 1769779939, nanos: 849951068 }, stale: "/home/penjy/Documents/PROJECTS/rust/sms/rust/src/lib.rs", stale_mtime: FileTime { seconds: 1769780055, nanos: 824390636 } }))
+    Checking sms_rust v0.1.0 (/home/penjy/Documents/PROJECTS/rust/sms/rust)
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
