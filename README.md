@@ -16,7 +16,3 @@ Once permissions are granted, **no UI interaction is required**.
 - 🚫 No root required
 - 📱 Compatible with Android 8+
 
----
-
-## 🧠 How It Works
-
