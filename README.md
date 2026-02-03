@@ -1,18 +1,40 @@
-# 📩 Android SMS Logger (Rust + Kotlin)
+# Kotlin-VSCode-Template
 
-An Android application that **automatically records all incoming SMS messages into a local `.txt` file**, using a **native Rust library** for fast and safe file handling.
+<p align="center"><img width="240" src="res/logo.png"></p>
 
-The app works **entirely in the background** thanks to an Android `BroadcastReceiver`.  
-Once permissions are granted, **no UI interaction is required**.
+### 1. Idea
 
----
+Allowing a simple Kotlin project to run in vscode.
 
-## ✨ Features
+### 2. Installation
 
-- 📥 Capture all incoming SMS messages
-- 🦀 Native Rust backend (via JNI)
-- 📝 Append messages to a `sms.txt` file
-- ⚙️ Works in background (no need to open the app)
-- 🚫 No root required
-- 📱 Compatible with Android 8+
+This step only on Windows 10:
 
+- Install Windows subsystem for Linux
+- Install Ubuntu from the store
+
+Both Ubuntu and Windows subsystem for Linux:
+
+- Run bash
+- Install git - ```sudo apt-get install git```
+
+Dependencies:
+
+- Java
+- Kotlin 1.2.41
+- Gradle
+
+### 3. Run
+
+Cloning the project:
+
+    git clone git@github.com:Menziess/Kotlin-VSCode-Template.git
+    cd Kotlin-VSCode-Template
+
+Building the project:
+
+    gradle build
+
+Running the project:
+
+    gradle run
