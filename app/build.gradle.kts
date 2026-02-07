@@ -11,7 +11,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.smsLogger"
-        minSdk = 26 // Supporte Android 8.0 et +
+        minSdk = 21 
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
